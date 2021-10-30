@@ -1,4 +1,5 @@
 describe("The payroll system", function () {
+
   describe("populates a record from an Array", function () {
     it("has a function called createEmployeeRecord", function () {
       expect(createEmployeeRecord).to.exist
@@ -36,6 +37,9 @@ describe("The payroll system", function () {
       })
     })
   })
+
+
+
 
   describe("process an Array of Arrays into an Array of employee records", function () {
     it("has a function called createEmployeeRecords", function () {
@@ -146,6 +150,9 @@ describe("The payroll system", function () {
     })
   })
 
+
+
+  
   describe("Given an employee record with a date-matched timeInEvent and timeOutEvent", function () {
 
     it("hoursWorkedOnDate calculates the hours worked when given an employee record and a date", function () {
